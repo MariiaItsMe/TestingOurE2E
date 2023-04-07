@@ -1,4 +1,4 @@
-//используеv для проверки наличия у элемента определенного текста
+//используем для проверки наличия у элемента определенного текста
 describe('toHaveText', async () => {
     it('verify element to have text', async () => {
         await browser.url('https://ecommerce-playground.lambdatest.io/index.php?route=account/register');

@@ -1,10 +1,9 @@
-//проверка того, включен ли элемент, например, возраст, путем вызова isSelected для элемента
-describe('toBeChecked', async () => {
-    it('verify element to be checked', async () => {
+//проверка того, есть ли элемент, например, возраст, путем вызова isSelected для элемента
+describe('toBeSelected', async () => {
+    it('verify element to be selected', async () => {
         await browser.url('https://www.lambdatest.com/selenium-playground/checkbox-demo');
         const elem = await $("#isAgeSelected")
-        await expect(elem).not.toBeChecked()
-        await elem.click()
-        await expect(elem).toBeChecked()
+        elem.click();
+        await expect(elem).toBeSelected()
     });
 });
