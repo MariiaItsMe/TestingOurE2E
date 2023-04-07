@@ -1,3 +1,4 @@
+//проверка на корректную цель ссылки
 describe('toHaveLink', async () => {
     it('verify element to have link', async () => {
         await browser.url('https://ecommerce-playground.lambdatest.io/index.php?route=account/register');

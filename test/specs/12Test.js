@@ -1,3 +1,4 @@
+//проверка на корректное содержание эллемента внутри ссылки
 describe('toHaveLinkContaining', async () => {
     it('verify element to have link containing value', async () => {
         await browser.url('https://ecommerce-playground.lambdatest.io/index.php?route=account/register');

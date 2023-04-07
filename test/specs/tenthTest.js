@@ -1,3 +1,4 @@
+//проверяем наличие магазина по категориям
 describe('toBePresent', async () => {
     it('verify element is present', async () => {
         await browser.url('https://ecommerce-playground.lambdatest.io/');

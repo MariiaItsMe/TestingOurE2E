@@ -1,3 +1,4 @@
+//проверка наличия у элемента определенного атрибута с определенным значением
 describe('toHaveAttribute', async () => {
     it('verify element to have attribute', async () => {
         await browser.url('https://ecommerce-playground.lambdatest.io/index.php?route=account/register');
